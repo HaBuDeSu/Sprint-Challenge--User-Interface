@@ -79,6 +79,7 @@ header {
 
 .navbar {
 			display: flex;
+			align-items: flex-end;
 }
 
 header nav {

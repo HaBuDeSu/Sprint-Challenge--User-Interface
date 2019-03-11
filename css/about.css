@@ -79,6 +79,7 @@ header {
 
 .navbar {
 			display: flex;
+			align-items: flex-end;
 }
 
 header nav {
@@ -112,7 +113,6 @@ header nav a {
 }
 
 .middle-content {
-    margin-bottom: 20px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
@@ -185,17 +185,17 @@ header nav a {
 }
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+	margin-bottom: 20px;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
-}
+		width: 97%;
+		padding-left: 2%;
+		padding-bottom: 20px;
+	}
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.bottom-content h2 {
+	margin-bottom: 15px;
 }
 
 footer {
