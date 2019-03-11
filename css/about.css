@@ -94,6 +94,10 @@ header nav a {
 	text-decoration: none;
 }
 
+header nav a:hover {
+	color: #e00000;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
