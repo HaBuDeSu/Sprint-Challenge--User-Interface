@@ -131,12 +131,3 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
-@media (max-width: 800px) {
-	.blog-post {
-		flex-direction: column;
-	}
-  .blog-post .text-container {
-    width: 300px;
-  }
-}
