@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML tags are standard tags that give context to the content. This helps other people as well as search engines understand the content. Some have preset styling like h1, h2, etc. as well as being critical search engine ranking factors like title and h1.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block elements will be on their own line while inline elements will be on the same line as other inline elements before and after it.
+
+You can also specify the height and width of block elements while you cannot for inline elements.
 
 3. What are the 4 areas of the box model?
 
+Margin, Border, Padding, and Content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross Axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git helps with version control so that multiple developers can work on the same project in an organized way.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,13 +64,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
